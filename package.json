@@ -1,34 +1,27 @@
 {
-  "name": "netlify-express",
-  "version": "0.0.1",
-  "description": "Example of how to deploy a Express.js Netlify app.",
-  "main": "netlify/functions/server.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "https": "^1.0.0",
+    "serverless-http": "^3.2.0",
+    "xml": "^1.0.1"
+  },
+  "name": "netlify-edgefunctions",
+  "version": "1.0.0",
+  "main": "index.html",
   "scripts": {
-    "build": "NODE_OPTIONS='--openssl-legacy-provider' netlify-lambda build express",
-    "start": "node server-local.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/neverendingqs/netlify-express.git"
+    "url": "git+https://github.com/ravs333/netlify-edgefunctions.git"
   },
-  "keywords": [
-    "netlify",
-    "express.js"
-  ],
-  "author": "neverendingqs",
-  "license": "Apache-2.0",
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/neverendingqs/netlify-express/issues"
+    "url": "https://github.com/ravs333/netlify-edgefunctions/issues"
   },
-  "homepage": "https://github.com/neverendingqs/netlify-express#readme",
-  "dependencies": {
-    "@netlify/functions": "github:netlify/functions"
-  },
-  "devDependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1",
-    "netlify-lambda": "^1.6.3",
-    "nodemon": "^1.19.2",
-    "serverless-http": "^2.3.0"
-  }
+  "homepage": "https://github.com/ravs333/netlify-edgefunctions#readme",
+  "description": ""
 }
