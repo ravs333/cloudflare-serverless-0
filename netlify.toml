@@ -1,5 +1,5 @@
 [build]
-  functions = "functions"
+  edge_functions = "functions"
 
 [functions]
   external_node_modules = ["express"]
